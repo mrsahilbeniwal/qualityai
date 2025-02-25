@@ -8,9 +8,17 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
+import BrainAnimation from "@/components/BrainAnimation";
+
+export default function Home() {
+  return (
+    
+  );
+}
 
 export default function Page() {
   return (
+    
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <Header />
       <main>
@@ -33,6 +41,13 @@ export default function Page() {
           }
         />
         <Customers />
+        <div className="relative flex items-center justify-center h-screen bg-black">
+          <BrainAnimation />
+          <div className="relative z-10 text-white text-center">
+            <h1 className="text-5xl font-bold">Welcome to My Website</h1>
+            <p className="text-xl mt-4">A futuristic experience with three.js</p>
+          </div>
+        </div>
         <Section
           leftHalf={<Accordion />}
           rightHalf={
