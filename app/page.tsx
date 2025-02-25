@@ -8,7 +8,7 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
-import BrainAnimation from "@/components/BrainAnimation";
+import BrainAnimation from "components/BrainAnimation";
 
 export default function Home() {
   return (
