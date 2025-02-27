@@ -11,7 +11,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import SmoothScroll from 'src/components/smoothScroll';
 import Projects from 'src/components/projects';
-import styles from './page.module.css';
+import styles from 'src/app/page.module.scss';
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
