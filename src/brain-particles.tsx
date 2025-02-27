@@ -2,7 +2,16 @@ import React from 'react';
 import { extend, useFrame } from '@react-three/fiber';
 import { shaderMaterial } from '@react-three/drei';
 import * as THREE from 'three';
+import { Object3DNode } from '@react-three/fiber/dist/declarations/src/core/renderer';
 import { randomRange } from 'src/utils';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      brainParticleMaterial: Object3DNode<THREE.ShaderMaterial, typeof THREE.ShaderMaterial>;
+    }
+  }
+}
 
 export const BrainParticleMaterial = shaderMaterial(
   { time: 0, color: new THREE.Color(0.1, 0.3, 0.6) },
