@@ -8,7 +8,6 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import BrainAnimation from "components/BrainAnimation";
 import BackgroundPaths from "components/BackgroundPaths";
-import styles from './page.module.scss'
 import React from 'react';
 import dynamic from 'next/dynamic';
 import SmoothScroll from 'src/components/smoothScroll';
