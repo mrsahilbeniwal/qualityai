@@ -6,7 +6,6 @@ import Footer from "components/Footer";
 import Customers from "components/Customers";
 import Image from "next/image";
 import Accordion from "components/Accordion";
-import BrainAnimation from "components/BrainAnimation";
 import BackgroundPaths from "components/BackgroundPaths";
 import React from 'react';
 import dynamic from 'next/dynamic';
@@ -45,7 +44,6 @@ export default function Page() {
         />
         <Customers />
         <div className="relative flex items-center justify-center h-screen bg-black">
-          <BrainAnimation />
           <div className="relative z-10 text-white text-center">
             <h1 className="text-5xl font-bold">Welcome to My Website</h1>
             <p className="text-xl mt-4">A futuristic experience with three.js</p>
