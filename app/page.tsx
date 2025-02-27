@@ -8,6 +8,17 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import BrainAnimation from "components/BrainAnimation";
 import BackgroundPaths from "components/BackgroundPaths";
+import styles from './page.module.scss'
+import React from 'react';
+import dynamic from 'next/dynamic';
+import SmoothScroll from 'src/components/smoothScroll';
+import Projects from 'src/components/projects';
+
+const Earth = dynamic(() => import('src/components/earth'), {
+  ssr: false,
+  loading: () => <img src="/assets/placeholder.png"></img>
+})
+
 
 export default function Page() {
   return (
@@ -55,6 +66,12 @@ export default function Page() {
             </div>
           }
         />
+        <SmoothScroll>
+          <main className={styles.main}>
+            <Earth />
+            <Projects />
+          </main>
+        </SmoothScroll>
         <BackgroundPaths/>
       </main>
       <Footer />
