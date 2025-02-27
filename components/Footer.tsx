@@ -10,7 +10,9 @@ const Footer: React.FC = () => {
         <p className="ml-4 text-xl font-bold bg-clip-text text-transparent bg-[url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWV3a3JveTZhZTBrMW5mOXAzcTg1MHZvdG9nN3RlbTF6dHBnZTZodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AIGF7ljcNKZI4/giphy.gif')] bg-cover bg-center">
           &copy; {currentYear} QualityAI. All rights reserved.
         </p>
-
+        <p className="ml-4 text-xl font-bold bg-clip-text text-transparent bg-[url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHplb2VjemtyaHhlNmkwdjA5c3lkdjc2Y3FxMmt1eW95Nno5MnhwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gBxL0G0DqZd84/giphy.gif')] bg-cover bg-center">
+          Made In The Mountains.
+        </p>
         <div className="flex space-x-4 mt-2 mr-4 sm:mt-0">
           <a href="#" aria-label="Facebook" className="hover:text-gray-300">
             <AiOutlineFacebook className="w-5 h-5" />
