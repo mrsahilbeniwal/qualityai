@@ -15,7 +15,6 @@ import styles from 'src/app/page.module.scss';
 import MarketMap from 'components/MarketMap';
 import BeamsBackground from "components/BackgroundBeams";
 import GridBall from "components/GridBall";
-import Block from "components/Block";
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
