@@ -12,9 +12,8 @@ import dynamic from 'next/dynamic';
 import SmoothScroll from 'src/components/smoothScroll';
 import Projects from 'src/components/projects';
 import styles from 'src/app/page.module.scss';
-import MarketMap from 'components/MarketMap';
-import BeamsBackground from "components/BackgroundBeams";
 import GridBall from "components/GridBall";
+import Circles from "components/Circles";
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
@@ -29,7 +28,7 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
-        <Block />
+        <Circles />
         <Customers />
         <div className="min-h-screen bg-black text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
