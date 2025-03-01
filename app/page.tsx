@@ -12,6 +12,7 @@ import dynamic from 'next/dynamic';
 import SmoothScroll from 'src/components/smoothScroll';
 import Projects from 'src/components/projects';
 import styles from 'src/app/page.module.scss';
+import MarketMap from 'components/MarketMap';
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
@@ -27,6 +28,7 @@ export default function Page() {
       <main>
         <Hero />
         <Customers />
+        <MarketMap/>
         <Section
           leftHalf={<Accordion />}
           rightHalf={
