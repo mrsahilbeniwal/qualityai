@@ -15,6 +15,7 @@ import styles from 'src/app/page.module.scss';
 import MarketMap from 'components/MarketMap';
 import BeamsBackground from "components/BackgroundBeams";
 import GridBall from "components/GridBall";
+import Block from "components/Block";
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
@@ -29,8 +30,8 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
+        <Block />
         <Customers />
-        <MarketMap/>
         <div className="min-h-screen bg-black text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
             <h1 className="text-5xl font-serif mb-8">Set the product direction</h1>
