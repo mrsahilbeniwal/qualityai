@@ -1,6 +1,4 @@
 import Header from "components/Header";
-import Hero from "components/Hero";
-import Features from "components/Features";
 import Section from "components/Section";
 import Footer from "components/Footer";
 import Customers from "components/Customers";
@@ -27,32 +25,18 @@ export default function Page() {
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <Header />
       <main>
-        <Hero />
         <Circles />
         <Customers />
         <div className="min-h-screen bg-black text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
-            <h1 className="text-5xl font-serif mb-8">Set the product direction</h1>
+            <h1 className="text-5xl font-serif mb-8">Working to Excel</h1>
             <p className="text-gray-400 text-lg leading-relaxed mb-12">
-              Setting direction is one of the most important things you'll do when building a product and company. A clear direction aligns everyone to work toward the same goals.
+              Setting direction is one of the most important thing we do when building a product and company. A clear direction aligns everyone to work toward the same goals.
+              At Quality AI, we have done that my adapting an incremental approach to building our products.
             </p>
             <GridBall />
           </div>
         </div>
-        <Section
-          leftHalf={<Accordion />}
-          rightHalf={
-            <div className="flex flex-col justify-end">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
-              </h2>
-              <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
-              </p>
-            </div>
-          }
-        />
         <SmoothScroll>
           <main className={styles.main}>
             <Earth />
