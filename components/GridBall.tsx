@@ -81,7 +81,7 @@ export default function GridBall() {
     if (isAnimating.current) {
       requestRef.current = requestAnimationFrame(animateCanvas)
     }
-  }, [dimensions, ballRef.current]), // Added ballRef.current to dependencies
+  }, [dimensions, ballRef.current]) // Added ballRef.current to dependencies
 
   // Handle click to move ball
   const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
