@@ -11,6 +11,7 @@ import Projects from 'src/components/projects';
 import styles from 'src/app/page.module.scss';
 import GridBall from "components/GridBall";
 import Circles from "components/Circles";
+import CoverDemo from "components/cover-demo";
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
@@ -24,8 +25,9 @@ export default function Page() {
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <Header />
       <main>
+        <CoverDemo />
         <Circles />
-        <Customers />
+        <CoverDemo />
         <div className="min-h-screen bg-black text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
             <h1 className="text-5xl font-serif mb-8">Working to Excel</h1>
