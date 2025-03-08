@@ -7,7 +7,6 @@ import Accordion from "components/Accordion";
 import BackgroundPaths from "components/BackgroundPaths";
 import React from 'react';
 import dynamic from 'next/dynamic';
-import SmoothScroll from 'src/components/smoothScroll';
 import Projects from 'src/components/projects';
 import styles from 'src/app/page.module.scss';
 import GridBall from "components/GridBall";
@@ -37,12 +36,6 @@ export default function Page() {
             <GridBall />
           </div>
         </div>
-        <SmoothScroll>
-          <main className={styles.main}>
-            <Earth />
-            <Projects />
-          </main>
-        </SmoothScroll>
         <BackgroundPaths/>
       </main>
       <Footer />
