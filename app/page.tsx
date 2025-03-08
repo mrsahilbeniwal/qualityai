@@ -13,6 +13,9 @@ import GridBall from "components/GridBall";
 import Circles from "components/Circles";
 import CoverDemo from "components/cover-demo";
 import SparklesDemo from "components/SparklesDemo";
+import Timeline from "components/Timeline";
+import Lamp from "components/Lamp";
+import InputUi from "components/InputUi";
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
@@ -27,8 +30,8 @@ export default function Page() {
       <Header />
       <main>
         <SparklesDemo />
-        <Circles />
         <CoverDemo />
+        <Timeline />
         <div className="min-h-screen bg-black text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
             <h1 className="text-5xl font-serif mb-8">Working to Excel</h1>
@@ -39,6 +42,8 @@ export default function Page() {
             <GridBall />
           </div>
         </div>
+        <InputUi />
+        <Lamp />
         <BackgroundPaths/>
       </main>
       <Footer />
