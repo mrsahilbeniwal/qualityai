@@ -12,6 +12,7 @@ import styles from 'src/app/page.module.scss';
 import GridBall from "components/GridBall";
 import Circles from "components/Circles";
 import CoverDemo from "components/cover-demo";
+import SparklesDemo from "components/SparklesDemo";
 
 const Earth = dynamic(() => import('src/components/earth'), {
   ssr: false,
@@ -25,7 +26,7 @@ export default function Page() {
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
       <Header />
       <main>
-        <CoverDemo />
+        <SparklesDemo />
         <Circles />
         <CoverDemo />
         <div className="min-h-screen bg-black text-white">
