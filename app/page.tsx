@@ -34,7 +34,7 @@ export default function Page() {
         <Timeline />
         <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
-            <h1 className="text-5xl font-serif mb-8">Working to Excel</h1>
+            <h1 className="text-5xl font-Inter mb-8">Working to Excel</h1>
             <p className="text-gray-400 text-lg leading-relaxed mb-12">
               Setting direction is one of the most important thing we do when building a product and company. A clear direction aligns everyone to work toward the same goals.
               At Quality AI, we have done that my adapting an incremental approach to building our products.
