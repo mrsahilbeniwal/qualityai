@@ -32,7 +32,7 @@ export default function Page() {
         <SparklesDemo />
         <CoverDemo />
         <Timeline />
-        <div className="min-h-screen bg-black text-white">
+        <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
             <h1 className="text-5xl font-serif mb-8">Working to Excel</h1>
             <p className="text-gray-400 text-lg leading-relaxed mb-12">

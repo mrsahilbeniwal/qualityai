@@ -72,7 +72,7 @@ export default function GridBall() {
         ctx.beginPath()
         ctx.moveTo(pointX, pointY)
         ctx.lineTo(pointX + Math.cos(angle) * STROKE_LENGTH, pointY + Math.sin(angle) * STROKE_LENGTH)
-        ctx.strokeStyle = "rgba(255, 255, 255, 0.3)"
+        ctx.strokeStyle = "rgba(0, 0, 0, 0.3)"
         ctx.lineWidth = STROKE_WIDTH
         ctx.stroke()
       }
