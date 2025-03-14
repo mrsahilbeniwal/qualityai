@@ -3,7 +3,7 @@ import { SparklesCore } from "components/ui/hero-sparkles"
 
 export default function SparklesPreview() {
   return (
-    <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden">
+    <div className="h-[40rem] w-full bg-white flex flex-col items-center justify-center overflow-hidden">
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-black relative z-20">Quality AI</h1>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}

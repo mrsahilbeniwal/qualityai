@@ -135,7 +135,7 @@ export default function GridBall() {
 
   return (
     <div
-      className="relative cursor-pointer bg-black"
+      className="relative cursor-pointer bg-white"
       onClick={handleClick}
       style={{ width: dimensions.width, height: dimensions.height }}
     >
