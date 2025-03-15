@@ -16,18 +16,6 @@ export default function Header() {
             className="dark:hidden" // Hide on dark mode
           />
         </div>
-        <nav className="flex items-center">
-          <ul className="flex space-x-2 mr-2">
-            <li>
-              <Link
-                href="/contact"
-                className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
   );
