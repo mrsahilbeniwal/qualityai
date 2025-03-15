@@ -30,9 +30,7 @@ export default function Page() {
       <Header />
       <main>
         <SparklesDemo />
-        <CoverDemo />
-        <Timeline />
-        <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white">
+        {/* <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white">
           <div className="max-w-[690px] mx-auto pt-20 px-4">
             <h1 className="text-5xl font-Inter mb-8">Working to Excel</h1>
             <p className="text-gray-400 text-lg leading-relaxed mb-12">
@@ -41,7 +39,7 @@ export default function Page() {
             </p>
             <GridBall />
           </div>
-        </div>
+        </div> */}
         <Lamp />
         <div className="max-w-[690px] mx-auto pt-20 px-4">
             <p className="text-gray-600 text-lg leading-relaxed mb-12">
@@ -55,6 +53,13 @@ export default function Page() {
               While most of the AI solutions are built for the western world, we at Quality AI are building solutions that are India first. We are building solutions that are tailored to the Indian market and are solving the problems that are unique to India.
             </p>
         </div>
+        <CoverDemo />
+        <div className="max-w-[690px] mx-auto pt-20 px-4">
+            <p className="text-gray-600 text-lg leading-relaxed mb-12">
+              Have a look at our offerings.
+            </p>
+        </div>
+        <Timeline />
         <InputUi />
       </main>
       <Footer />

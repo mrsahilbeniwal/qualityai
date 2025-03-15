@@ -4,11 +4,11 @@ import { Timeline } from "components/ui/timeline"
 export default function TimelineDemo() {
   const data = [
     {
-      title: "Early 2025",
+      title: "Curv & Nexus",
       content: (
         <div>
           <p className="text-black-800 dark:text-white-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched QAI Curv & Nexus.
+            Built to aid patient-doctor interactions in the highly sentitive Derma space. Giving patients the confidence to share their problems without those anxious physical sneak-peaks and doctors the tools to diagnose them with higher precision and ease.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -30,11 +30,11 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "Late 2024",
+      title: "TrueSkin",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            We spent most of September & October perfecting our ideas and seeking industry inputs.
+            A user oriented smart skincare app that goes beyond just facial skincare, allowing you to tackle any non-medical conditions on your body with ease.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -56,7 +56,7 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "Last Quarter of 2024",
+      title: "Some Backstory no one asked for",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
