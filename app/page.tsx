@@ -42,9 +42,20 @@ export default function Page() {
             <GridBall />
           </div>
         </div>
-        <InputUi />
         <Lamp />
+        <div className="max-w-[690px] mx-auto pt-20 px-4">
+            <p className="text-gray-600 text-lg leading-relaxed mb-12">
+              Life's always easy when something is illuminating your path. At Quality AI we try to be that source of light. Always looking for ways we can contribute our bit for the betterment of society through our easy to deploy/use solutions.
+            </p>
+        </div>
         <BackgroundPaths/>
+        <div className="max-w-[690px] mx-auto pt-20 px-4">
+          <h1 className="text-5xl font-Inter mb-8">Our Solutions are India First!</h1>
+            <p className="text-gray-600 text-lg leading-relaxed mb-12">
+              While most of the AI solutions are built for the western world, we at Quality AI are building solutions that are India first. We are building solutions that are tailored to the Indian market and are solving the problems that are unique to India.
+            </p>
+        </div>
+        <InputUi />
       </main>
       <Footer />
     </div>
