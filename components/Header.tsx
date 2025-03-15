@@ -9,10 +9,11 @@ export default function Header() {
         <div className="flex items-center justify-center flex-grow">
           {/* Logo */}
           <Image 
-            src="public/assets/qai.png" // Path to the logo image in the public folder
+            src="/assets/qai.png" // Path to the logo image inside the public folder
             alt="QualityAI Logo"
             width={150} // Adjust width as necessary
             height={40} // Adjust height as necessary
+            className="dark:hidden" // Hide on dark mode
           />
         </div>
         <nav className="flex items-center">
@@ -22,7 +23,7 @@ export default function Header() {
                 href="/contact"
                 className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               >
-                Connect
+                Contact
               </Link>
             </li>
           </ul>
