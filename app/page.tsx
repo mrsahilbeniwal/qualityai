@@ -22,7 +22,7 @@ const Earth = dynamic(() => import('src/components/earth'), {
   loading: () => <img src="/assets/placeholder.png"></img>
 })
 
-
+{/*Everything seems fine*/}
 export default function Page() {
   return (
     
